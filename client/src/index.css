@@ -14,6 +14,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  color: black;
 }
 
 .movie-director {
@@ -66,6 +67,32 @@ body {
   color: white;
 }
 
+.edit-button {
+  position: absolute;
+  top: 25px;
+  right: 100px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  color: black;
+}
+.edit-button:hover {
+  background-color: yellow;
+}
+
+.delete-button {
+  position: absolute;
+  top: 25px;
+  right: 165px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  color: black;
+}
+.delete-button:hover {
+  background-color: red;
+}
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
@@ -74,4 +101,43 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.update-container {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.update-container p {
+  padding-bottom: 15 px;
+  font-size: 1.2rem;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-form div {
+  margin: 20px;
+}
+
+.update-form div label {
+  font-size: 1.1rem;
+  padding-right: 10px;
+}
+
+.update-form div input {
+  font-size: 0.9rem;
+}
+
+.save-btn {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  font-size: 1.1rem;
+}
+.save-btn:hover {
+  background-color: green;
+  color: white;
 }
